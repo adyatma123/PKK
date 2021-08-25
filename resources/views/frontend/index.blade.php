@@ -65,8 +65,11 @@
 			</div>
 		</nav>
 	</div>
-	<div class="col-md-2 search">
-    	<input type="search" class="form-control" /><span class="glyphicon glyphicon-search btn"></span>
+	<div class="col-md-2">
+        <div class="search">
+    	    <input type="search" class="form-control" />
+            <span class="glyphicon glyphicon-search search-btn"></span>
+        </div>
     </div>
 </div>
 
@@ -661,6 +664,6 @@
 	Copyright &copy; 2016 <a href="#">COLORMAG</a> Powered by: <a href="#">DREAMTEAM</a>
 </div>
 
-<script src="{{url('public/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('public/assets/js/bootstrap.min.js')}}"></script>
 </body>
 </html>
